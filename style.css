@@ -1,15 +1,11 @@
 h1 {
-    color: darkgreen;
+    color:darkgreen;
 }
 
-p {
-    color: lightgreen;
+p{
+    color:lightgreen
 }
-
-.contanier {
+.container{
     width: 500px;
     background-color: cornsilk;
-    margin: auto;
-    padding: 20px;
 }
-
