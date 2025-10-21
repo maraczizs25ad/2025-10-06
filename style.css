@@ -1,15 +1,52 @@
-h1 {
-    color:darkgreen;
+body {
+    background-color: #eeeeee;
 }
 
-p{
+h1 {
+    color: darkgreen;
+}
+
+p {
     color: #333333
 }
-.container{
+
+img {
+    max-width: 100%;
+}
+
+.container {
     width: 500px;
-    background-color:#dddddd;
-    margin: 30px auto;
+    background-color: #dddddd;
     padding: 20px;
-    border-radius: 10px;
     border: 3px solid #666666;
+    border-radius: 15px;
+    margin: 30px auto;
+
+}
+
+.content {
+    width: 500px;
+    float: left;
+}
+
+.sidebar {
+    width: 200px;
+    float: right;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.topnav {
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: ;
+    padding: 15px;
+    
 }
