@@ -15,7 +15,7 @@ img {
 }
 
 .container {
-    width: 500px;
+    width: 700px;
     background-color: #dddddd;
     padding: 20px;
     border: 3px solid #666666;
@@ -25,12 +25,12 @@ img {
 }
 
 .content {
-    width: 500px;
+    width: 700px;
     float: left;
 }
 
 .sidebar {
-    width: 200px;
+    width: 700px;
     float: right;
 }
 
@@ -45,8 +45,22 @@ img {
 }
 
 .topnav a {
-    float: left;
-    color: ;
-    padding: 15px;
+   float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
     
 }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+     background-color: #04AA6D;
+  color: white;
+}
+  
